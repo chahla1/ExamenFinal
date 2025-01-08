@@ -30,6 +30,6 @@ class Lavadora extends Electrodomesticos{
     @Override
     public void imprimir() {
         System.out.println("Lavadora: " + getMarca() + " " + getModelo() + ", Programas: " + getNumDeProgramas() +
-                ", Carga: " + capDeCarga + "kg, RPM: " + revPorMinuto);
+                ", Carga: " + capDeCarga + " kg: " + revPorMinuto);
     }
 }
