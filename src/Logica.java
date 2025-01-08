@@ -3,12 +3,12 @@ import java.util.List;
 
 //Aqui creamos la clase donde se implementa la logica del negocio
 public class Logica {
-    //Creamos una lista con  un array en donde se guarden los electrodomesticos
+    //Creamos una lista con un array en donde se guarden los electrodomesticos
     private List<Electrodomesticos> electrodomesticos = new ArrayList<>();
 
     //Añadimos el metodo lavadora
-    public static void anadirLavadora(Lavadora lavadora) {
-        Electrodomesticos.add(lavadora);
+    public void anadirLavadora(Lavadora lavadora) {
+        electrodomesticos.add(lavadora);
     }
 
     //Añadimos el metodo lavavajillas
@@ -28,4 +28,3 @@ public class Logica {
         }
     }
 }
-

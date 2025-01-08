@@ -12,9 +12,6 @@ public abstract class Electrodomesticos {
 
     }
 
-    public static void add(Lavadora lavadora) {
-    }
-
     //Ahora creamos los getters
     public String getMarca(){
         return Marca;
