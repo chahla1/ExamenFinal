@@ -1,4 +1,4 @@
-//Creamos la clase Lavador
+//Creamos la clase Lavadora
 
 class Lavadora extends Electrodomesticos{
     //Añadimos los atributos de la lavadora
